@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: "1",
     name: "camille",
     image: "/images/camille.jpg",
     description: "camille",
@@ -12,7 +11,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "2",
     name: "faux watermelon",
     image: "/images/faux-watermelon.jpg",
     description: "faux watermelon",
@@ -24,7 +22,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: "3",
     name: "fiddle leaf",
     image: "/images/fiddle-leaf.jpg",
     description: "fiddle leaf",
@@ -36,7 +33,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "4",
     name: "monstera",
     image: "/images/monstera.jpg",
     description: "monstera",
@@ -48,7 +44,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "5",
     name: "palm tree",
     image: "/images/palm-tree.jpg",
     description: "palm tree",
@@ -60,7 +55,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: "6",
     name: "peace lily",
     image: "/images/peace-lily.jpg",
     description: "peace lily",
@@ -72,7 +66,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "7",
     name: "pothos",
     image: "/images/pothos.jpg",
     description: "pothos",
