@@ -18,6 +18,8 @@ const ProductScreen = () => {
     fetchProduct();
   }, [productId]);
 
+  console.log(product)
+
   return (
     <>
       <Link to="/" className="btn btn-light my-3">
