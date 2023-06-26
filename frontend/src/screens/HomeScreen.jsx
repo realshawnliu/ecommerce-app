@@ -10,7 +10,7 @@ const HomeScreen = () => {
       {isLoading ? (
         <div>Loading...</div>
       ) : error ? (
-        <div>{error?.data.message || error.error}</div>
+        <div>{error?.data?.message || error.error}</div>
       ) : (
         <>
           <h1>Latest Products</h1>
