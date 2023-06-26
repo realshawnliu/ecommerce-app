@@ -20,10 +20,10 @@ const ProductScreen = () => {
       ) : (
         <>
           <Row>
-            <Col md={5}>
+            <Col md={6}>
               <Image src={product.image} alt={product.name} fluid />
             </Col>
-            <Col md={4}>
+            <Col md={3}>
               <ListGroup variant="flush">
                 <ListGroup.Item>
                   <h3>{product.name}</h3>
@@ -40,19 +40,18 @@ const ProductScreen = () => {
                 <ListGroup variant="flush">
                   <ListGroup.Item>
                     <Row>
+                      <Col>Price:</Col>
                       <Col>
                         <strong>${product.price}</strong>
                       </Col>
                     </Row>
                   </ListGroup.Item>
-
                   <ListGroup.Item>
                     <Row>
                       <Col>Status:</Col>
                       <Col>{product.countInStock > 0 ? "In Stock" : "Out Of Stock"}</Col>
                     </Row>
                   </ListGroup.Item>
-
                   <ListGroup.Item>
                     <Button
                       className="btn-block"
