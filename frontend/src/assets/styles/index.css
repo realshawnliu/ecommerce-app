@@ -68,6 +68,11 @@ table th {
   height: 200px;
 }
 
+.cart-product-img {
+  width: 80px;
+  height: 80px;
+}
+
 .rating span {
   margin: 0.1rem;
 }
